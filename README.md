@@ -4,11 +4,12 @@ Directus extension that adds an interface to select videos from your Vimeo Pro a
 
 ### Usage
 
-1. Clone this repo into your project folder.
-2. Run
+1. Create the directory `/extensions/interfaces` in your project directory.
+2. Clone this repo into `/extensions/interfaces`.
+3. Run
 
 ```bash
-cd directus-vimeopro
+cd extensions/interfaces/directus-extension-vimeopro
 npm install
 npm run build
 ```
@@ -17,7 +18,7 @@ npm run build
 
 ```yaml
 volumes:
-  - ./directus-vimeopro/dist:/directus/extensions/interfaces/directus-vimeopro
+  - ./extensions/interfaces/directus-extension-vimeopro/dist:/directus/extensions/interfaces/directus-extension-vimeopro
 ```
 
 4. Add or modify the `CONTENT_SECURITY_POLICY_DIRECTIVES__IMG_SRC` env variable in your directus instance to allow vimeo's thumbnails to be displayed in the UI
