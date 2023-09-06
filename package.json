@@ -1,5 +1,5 @@
 {
-  "name": "directus-extension-directus-vimeopro",
+  "name": "directus-extension-vimeopro",
   "description": "Directus extension that adds an interface to select videos from your Vimeo Pro account.",
   "icon": "extension",
   "version": "1.0.0",
