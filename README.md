@@ -1,4 +1,4 @@
-# Vimeo Pro Directus extension
+# Vimeo Pro Directus interface extension
 
 Directus extension that adds an interface to select videos from your Vimeo Pro account.
 
