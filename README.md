@@ -2,6 +2,8 @@
 
 Directus extension that adds an interface to select videos from your Vimeo Pro account.
 
+Also check the [Directus Vimeo Pro display extension](https://github.com/OnSignals/directus-extension-vimeopro-display).
+
 ### Usage
 
 1. Create the directory `/extensions/interfaces` in your project directory.
